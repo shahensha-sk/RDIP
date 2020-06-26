@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <h2>Allow Multiple Seletcions</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="fnumber">ph no:</label><br>
+  <input type="number" id="fnumber" name="fnumber"><br><br>
+  <label for="fcourse">course:</label><br>
+  <input type="text" id="fcourse" name="fcouse"><br><br>
+  <form action="/action_page.php">
+  <label for="course">Choose any course:</label>
+  <select id="course" name="bacholers/masters" size="6" multiple>
+    <option value="CSE">CSE</option>
+    <option value="IT">IT</option>
+    <option value="ECE">ECE</option>
+    <option value="MECH">MECH</option>
+    <option value="CIV">CIV</option>
+    <option value="EEE">EEE</option>
+  </select><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
