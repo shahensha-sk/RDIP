@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An Unordered HTML List</h2>
+
+<ul>
+  <li>c programming : 1) arrays 2) sorting etc...</li>
+  <li>oops : 1) encapsulation 2) inheritance etc...</li>
+  <li>DBMS : 1) SQL quries 2) structures etc...</li>
+</ul>  
+
+<h2>An Ordered HTML List</h2>
+
+<ol>
+  <li>c programming</li>
+  <li>oops</li>
+  <li>DBMS</li>
+</ol> 
+
+</body>
+</html>
