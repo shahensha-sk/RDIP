@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Absolute URLs</h2>
+<p><a href="https://courses.conduiraonline.com/">ConduriaOnline</a></p>
+
+
+<h2>Relative URLs</h2>
+<p><a href="https://www.w3schools.com/html/html_links.asp">HTML Links</a></p>
+
+
+</body>
+</html>
