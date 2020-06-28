@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+    
+        
+        
+    
+    <div>
+        <h1>DETAILS PAGE:</h1>
+        <a href="https://www.iiit.ac.in/" target="_blank"><img src="http://iiit-new.png" alt="IIIT" style="width:200px;height:100px"></a>
+        <div>
+            <a href="https://serc.iiit.ac.in/rdip" target="_blank">RDIP</a>
+        </div>
+        <h2><a href="http://homepage.html" style="text-decoration:none;color:dodgerblue" target="_blank">Home</a>     <a href="http://registration.html" style="text-decoration:none;color:dodgerblue" target="_blank"> Registration Form</a></h2>
+        Firstname : shahensha<br>
+        E-Mail       : <a href="mailto:shannu88888@gmail.com" target="_blank">shannu88888@gmail.com</a><br>
+        Phone No  : 7********0<br>
+        Gender      :Male<br>
+        Reason      :HTML,CSS,JavaScript<br>
+	college     :Name of the college<br>
+
+    
+    </div>
+</body>
+</html>
