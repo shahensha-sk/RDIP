@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <div>
+        <h1>REGISTRATION PAGE:</h1>
+        <a href="https://www.iiit.ac.in/" target="_blank"><img src="http://iiit-new.png" alt="IIIT" style="width:200px;height:100px"></a>
+        <div>
+            <a href="https://serc.iiit.ac.in/rdip" target="_blank">RDIP</a>
+        </div>
+        <h2><a href="http://homepage.html" style="text-decoration:none;color:dodgerblue" target="_blank">Home</a>     <a href="http://registration.html" style="text-decoration:none;color:dodgerblue" target="_blank"> Registration Form</a></h2>
+        <form action="http://details.html" method="get" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+            <table>
+                <tr>
+                    <td>
+                        <strong>First name:</strong>
+                    </td>
+                    <td>
+                        <input type="text" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>E-mail:</strong>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Phone No:</strong>
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                </tr>
+              <tr>
+                  <td>
+                   <strong>Gender:</strong>
+                  </td>
+                  <td>
+              <input type="radio" name="gender" value="Male"><strong>Male</strong>
+               <input type="radio" name="gender" value="Female"><strong>Female</strong>
+              <input type="radio" name="gender" value="Others"><strong>Others</strong>
+                      </td>
+             </tr>
+             <tr>
+                  <td>
+                   <strong>Reason for RDIP:</strong>
+                  </td>
+                  <td>
+              <input type="checkbox" name="reason" value="HTML"><strong>HTML</strong>
+               <input type="checkbox" name="reason" value="CSS"><strong>CSS</strong>
+              <input type="checkbox" name="reason" value="JavaScript"><strong>JavaScript</strong>
+                      </td>
+             </tr>
+                <tr>
+                    <td>
+                        <strong>College:</strong>
+                    </td>
+                    <td>
+                        <input type="text" name="">
+                    </td>
+                </tr>
+                
+            </table> 
+        <br>
+       <input type="radio"><strong> I declare above details given by me are true</strong>
+	<br><br>
+
+        <input type="submit" value="Submit">
+	<input type="reset" value="reset">
+        </form>
+        
+     </div>
+</body>
+</html>
