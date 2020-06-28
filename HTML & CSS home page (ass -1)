@@ -1,16 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>
-<head>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-
-<body>
-<div>
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>HOME PAGE</title> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
         <h1>HOME PAGE:</h1>
-        <a href="https://www.iiit.ac.in/" target="_blank"><img src="http://iiit-new.png" alt="IIIT" style="width:200px;height:100px"></a>
-        <div>
+        <a href="https://www.iiit.ac.in/" target="_blank"><img src="iiit-new.png " alt="IIIT" style="width: 200px;height:100px;"></a>
+        <div class="right">
             <a href="https://serc.iiit.ac.in/rdip" target="_blank">RDIP</a>
         </div>
-        <h2><a href="http://homepage.html" style="text-decoration:none;color:dodgerblue" target="_blank">Home</a>     <a href="http://registration.html" style="text-decoration:none;color:dodgerblue" target="_blank"> Registration Form</a></h2>
+        <h2><a href="homepage.html" target="_blank" style="text-decoration: none;color: dodgerblue">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="registration.html" target="_blank" style="text-decoration: none;color: dodgerblue"> Registration Form</a></h2>
         <h3>My Details</h3>
         <table>
             <tr>
@@ -25,17 +25,17 @@
                 <th>Reason</th>
                 <td>Reason to join RDIP</td>
             </tr>
-            <td><img src="http://profile.jpg" alt="pic" style="width:100px;height:100px;float:right;padding-bottom:1000px">
+            <img src="profile.jpg" alt="pic"style="width:100px;height:100px;float: right;padding-bottom: 1000px;">
         
-        </td></table>
+        </table>
         
-        <p style="color:black">RDIP is Remote Digital Internship Program to help students learn/improve HTML,CSS,JavaScript</p>
+        <p style="color:black;">RDIP is Remote Digital Internship Program to help students learn/improve HTML,CSS,JavaScript</p>
         
-        <p style="color:black">Describe something about what you learn in first week of internship</p>
+        <p style="color:black;">Describe something about what you learn in first week of internship</p>
     
     
-    </div>
+    </body>
 
 
 
-</body></html>
+</html>
