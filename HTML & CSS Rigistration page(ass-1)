@@ -1,24 +1,25 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
-<head>
-<META http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<body>
-    <div>
+    <head>
+<script language="javascript" type="text/javascript" src="asd.html"></script>
+       <title>REGISTRATION PAGE</title> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
         <h1>REGISTRATION PAGE:</h1>
-        <a href="https://www.iiit.ac.in/" target="_blank"><img src="http://iiit-new.png" alt="IIIT" style="width:200px;height:100px"></a>
-        <div>
+        <a href="https://www.iiit.ac.in/" target="_blank"><img src="iiit-new.png " alt="IIIT" style="width: 200px;height:100px;"></a>
+        <div class="right">
             <a href="https://serc.iiit.ac.in/rdip" target="_blank">RDIP</a>
         </div>
-        <h2><a href="http://homepage.html" style="text-decoration:none;color:dodgerblue" target="_blank">Home</a>     <a href="http://registration.html" style="text-decoration:none;color:dodgerblue" target="_blank"> Registration Form</a></h2>
-        <form action="http://details.html" method="get" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+        <h2><a href="homepage.html" target="_blank" style="text-decoration: none;color: dodgerblue">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="registration.html" target="_blank" style="text-decoration: none;color: dodgerblue"> Registration Form</a></h2>
+        <form action="details.html" target="_blank" method="get">
             <table>
                 <tr>
                     <td>
                         <strong>First name:</strong>
                     </td>
                     <td>
-                        <input type="text" name="">
+                        <input type="text"  id="fname" name="" required>
                     </td>
                 </tr>
                 <tr>
@@ -26,7 +27,7 @@
                         <strong>E-mail:</strong>
                     </td>
                     <td>
-                        <input type="text">
+                        <input type="text" email="" required>
                     </td>
                 </tr>
                 <tr>
@@ -34,7 +35,7 @@
                         <strong>Phone No:</strong>
                     </td>
                     <td>
-                        <input type="number">
+                        <input type="number" number="" required>
                     </td>
                 </tr>
               <tr>
@@ -42,7 +43,7 @@
                    <strong>Gender:</strong>
                   </td>
                   <td>
-              <input type="radio" name="gender" value="Male"><strong>Male</strong>
+              <input type="radio" name="gender" value="Male" required><strong>Male</strong>
                <input type="radio" name="gender" value="Female"><strong>Female</strong>
               <input type="radio" name="gender" value="Others"><strong>Others</strong>
                       </td>
@@ -52,7 +53,7 @@
                    <strong>Reason for RDIP:</strong>
                   </td>
                   <td>
-              <input type="checkbox" name="reason" value="HTML"><strong>HTML</strong>
+              <input type="checkbox" name="reason" value="HTML" required><strong>HTML</strong>
                <input type="checkbox" name="reason" value="CSS"><strong>CSS</strong>
               <input type="checkbox" name="reason" value="JavaScript"><strong>JavaScript</strong>
                       </td>
@@ -62,19 +63,18 @@
                         <strong>College:</strong>
                     </td>
                     <td>
-                        <input type="text" name="">
+                        <input type="text" name="" required>
                     </td>
                 </tr>
                 
             </table> 
         <br>
-       <input type="radio"><strong> I declare above details given by me are true</strong>
+       <input type="radio" required><strong> I declare above details given by me are true</strong>
 	<br><br>
 
-        <input type="submit" value="Submit">
-	<input type="reset" value="reset">
+        <input type="submit" value="Submit" onClick="testJS()">
+	<input type="reset" value="reset" >
         </form>
         
-     </div>
-</body>
+     </body>
 </html>
